@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Setel Regression Suite" configfailurepolicy="continue" verbose="1" parallel="classes" thread-count="5">
+    <parameter name="browser" value="hchrome"/>
+    <parameter name="env" value="uat"/>
+    <test name="Smartkarte Test">
+        <classes>
+            <class name="PatientInfoTests"></class>
+            <class name="VisitingListTests"></class>
+            <class name="MedicalTests"></class>
+            <class name="ReceptionTests"></class>
+            <class name="AccountingTests"></class>
+            <class name="ReportingTests"></class>
+        </classes>
+    </test>
+</suite>

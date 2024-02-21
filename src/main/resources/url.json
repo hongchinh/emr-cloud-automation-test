@@ -1,0 +1,14 @@
+{
+  "uat": {
+    "URL": "https://uat-tenant.smartkarte.org/",
+    "DOMAIN": "uat-tenant.smartkarte.org",
+    "ORIGIN": "https://uat-tenant.smartkarte.org",
+    "REFERER": "https://uat-tenant.smartkarte.org/"
+  },
+  "datadog": {
+    "URL": "https://datadog.sotatek.works/",
+    "DOMAIN": "datadog.sotatek.works",
+    "ORIGIN": "https://datadog.sotatek.works",
+    "REFERER": "https://datadog.sotatek.works/"
+  }
+}
